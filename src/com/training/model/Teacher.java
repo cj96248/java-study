@@ -1,6 +1,6 @@
 package com.training.model;
 
-public class Student {
+public class Teacher {
 	
 	private int id;
 	private String name;
@@ -8,9 +8,9 @@ public class Student {
 	private double score;
 	private String gender;
 	
-	public Student(){}
+	public Teacher(){}
 	
-	public Student(int id, String name, int age, double score) {
+	public Teacher(int id, String name, int age, double score) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -52,7 +52,7 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", name=" + name + ", age=" + age + ", score=" + score + "]";
+		return "Teacher [id=" + id + ", name=" + name + ", age=" + age + ", score=" + score + "]";
 	}
 	
 }
